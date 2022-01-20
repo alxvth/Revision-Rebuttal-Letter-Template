@@ -1,0 +1,97 @@
+\documentclass{article}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ left=20mm,
+ right=20mm,
+ top=20mm,
+ }
+ 
+% ################################
+%          Packages
+% ################################
+\usepackage[utf8]{inputenc}
+
+\usepackage{enumitem}   % custom enumeration
+\usepackage{pdfpages}   % include full pdf pages
+\usepackage{hyperref}   % autoref
+
+% set up an environment for easily unidentifiable and non-disruptive responses
+% using an environment by Daniel R. Herber
+% see http://www.danielherber.com/latex.php?option=post_7
+\usepackage{xcolor} % defines colors 
+\usepackage[most]{tcolorbox} %  colored and framed text boxes
+\definecolor{block-gray}{gray}{0.95}
+\newtcolorbox{xresponse}{%
+	empty,
+    borderline west = {4pt}{0pt}{gray},
+    boxrule = 0pt,
+    boxsep = 0pt,
+    breakable,
+    colback = block-gray,
+    enhanced,
+    frame hidden,
+    left skip = 0pt,
+    notitle,
+    parbox = false,
+    sharp corners,
+}
+
+% set a counter for the environment so that \autoref can be used
+\newcounter{responseCounter}
+\newenvironment{response}[1][]{\begin{xresponse}\refstepcounter{responseCounter}\textbf{Response~\theresponseCounter. #1}}{\end{xresponse}}
+
+% set the \autoref abbreviation for the response environment
+\def\responseCounterautorefname{Resp.}
+
+% ################################
+%          Title and author
+% ################################
+
+\title{Revision Letter\\ Submission to VENUE 202X}
+\author{ }
+\date{\vspace{-25pt}}
+
+
+% ################################
+%          Begin document
+% ################################
+
+\begin{document}
+
+\maketitle
+
+% ################################
+%          Intro
+% ################################
+\input{sections/intro}
+
+% ################################
+%    Summaries of all reviews
+% ################################
+\input{sections/reviewsSummary}
+\newpage
+
+% ################################
+%   Main issues and responses
+% ################################
+\input{sections/concersAndRevision}
+\newpage
+
+% ################################
+%    Full reviews and responses
+% ################################
+\input{sections/reviews_all}
+\newpage
+
+% ################################
+%        Difference view
+% ################################
+% difference view between previous and current submissions, see:
+% https://github.com/ftilmann/latexdiff/
+% https://www.overleaf.com/learn/latex/Articles/Using_Latexdiff_For_Marking_Changes_To_Tex_Documents
+% https://ctan.org/pkg/latexdiff
+
+%\includepdf[pages=-]{diff_versions/diff_final.pdf}
+
+\end{document}
