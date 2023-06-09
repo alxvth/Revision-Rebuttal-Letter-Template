@@ -6,7 +6,7 @@ Roughly based on this [Paper Submission Revision Template](https://docs.google.c
 Interleave reviewer comments with
 ``` latex
 \begin{response}
-point-by-point respones,
+    point-by-point respones,
 \end{response}
 ```
 that describe how you will tackle the raised concerns.
@@ -15,7 +15,7 @@ This way, you might be able to more easily re-use your responses when writing a 
 
 Additionally, it can also be helpful to first summarize each reviews in your own words and then outline the main and recurring reviewer's concerns.
 
-Have a look at the [example PDF](example/Revision_Rebuttal_Letter_Template).
+Have a look at the [example PDF](example/Revision_Rebuttal_Letter_Template.pdf).
 
 ## Sections
 
