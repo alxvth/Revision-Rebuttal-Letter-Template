@@ -2,7 +2,7 @@
 
 Roughly based on this [Paper Submission Revision Template](https://docs.google.com/document/d/1Vef5VaW1j_vtg5z9lWJo4aKgzM0hUe3UnfBdY6-_1DM/edit) presented at the IEEE Vis 2020 [Fail Fest Workshop](https://virtual.ieeevis.org/year/2020/session_w-failfest.html) ([failfest.github.io](https://failfest.github.io/)) by Leilani Battle.
 
-## Usage recomendations
+## Usage recommendations
 Interleave reviewer comments with
 ``` latex
 \begin{response}
@@ -25,4 +25,4 @@ Use sections you need or see fit.
 2. Summaries of Individual Reviews
 3. Full Reviews and Point-by-Point Responses
 4. Difference Version of Previous and Current Submisison
-5. (Optional) A differerence view between the previous and new paper created with [latexdiff](https://github.com/ftilmann/latexdiff/) ([ctan package](https://ctan.org/pkg/latexdiff), and more [info](https://www.overleaf.com/learn/latex/Articles/Using_Latexdiff_For_Marking_Changes_To_Tex_Documents))
+5. (Optional) A difference view between the previous and new paper created with [latexdiff](https://github.com/ftilmann/latexdiff/) ([ctan package](https://ctan.org/pkg/latexdiff), and more [info](https://www.overleaf.com/learn/latex/Articles/Using_Latexdiff_For_Marking_Changes_To_Tex_Documents))
