@@ -21,8 +21,8 @@ Have a look at the [example PDF](example/Revision_Rebuttal_Letter_Template.pdf).
 
 Use the sections you need or as you see fit.
 
+0. Revision Letter
 1. Summaries of Reviewer Concerns and Our Revisions
 2. Summaries of Individual Reviews
 3. Full Reviews and Point-by-Point Responses
-4. Difference Version of Previous and Current Submisison
-5. (Optional) A difference view between the previous and new paper created with [latexdiff](https://github.com/ftilmann/latexdiff/) ([ctan package](https://ctan.org/pkg/latexdiff), and more [info](https://www.overleaf.com/learn/latex/Articles/Using_Latexdiff_For_Marking_Changes_To_Tex_Documents))
+4. (Optional) A Difference Version of Previous and Current Submisison, created with [latexdiff](https://github.com/ftilmann/latexdiff/) ([ctan package](https://ctan.org/pkg/latexdiff), and more [info](https://www.overleaf.com/learn/latex/Articles/Using_Latexdiff_For_Marking_Changes_To_Tex_Documents))
