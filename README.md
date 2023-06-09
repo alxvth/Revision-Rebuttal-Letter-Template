@@ -1,24 +1,28 @@
 # Revision and Rebuttal letter template
 
-Roughly based on this [Paper Submission Revision Template](https://docs.google.com/document/d/1Vef5VaW1j_vtg5z9lWJo4aKgzM0hUe3UnfBdY6-_1DM/edit) presented in a VIS Failiure session at IEEE Vis 2020 session.
+Roughly based on this [Paper Submission Revision Template](https://docs.google.com/document/d/1Vef5VaW1j_vtg5z9lWJo4aKgzM0hUe3UnfBdY6-_1DM/edit) presented at the IEEE Vis 2020 [Fail Fest Workshop](https://virtual.ieeevis.org/year/2020/session_w-failfest.html) ([failfest.github.io](https://failfest.github.io/)) by Leilani Battle.
+
+## Usage recomendations
+Interleave reviewer comments with
+``` latex
+\begin{response}
+point-by-point respones,
+\end{response}
+```
+that describe how you will tackle the raised concerns.
+Ideally, phrase your responses in a past tense.
+This way, you might be able to more easily re-use your responses when writing a final response letter.
+
+Additionally, it can also be helpful to first summarize each reviews in your own words and then outline the main and recurring reviewer's concerns.
+
+Have a look at the [example PDF](example/Revision_Rebuttal_Letter_Template).
 
 ## Sections
 
-Comment in/out whatever section you need.
-The (optional)-marked section are probably not necessary but may be useful to write anyway since that will force you to extract main issues raised by all reviewers.
+Use sections you need or see fit.
 
-1. (optional) Summaries of all reviews
-2. (optional) Main issues raised in the reviews and author's responses
-3. Full reviews and point-by-point responses
-4. Difference version of previous and current submisison
-
-
-## latexdiff (bad) practice
-
-1. Download the submitted version from Overleaf and rename all figures and section folder to *-old
-2. Use latexdiff on linux to create a diff between the current master HEAD and the submitted version (with --flatten)
-	```latexdiff --flatten main.tex ../OLD_VERSION/main.tex > ../Diff/diff.tex```
-4. compile under windows
-	- when the new version deleted some user-definition like
-	```\newcommand{\spatialNeighborhoodChannel}[2][c]{\ensuremath{\mathcal{N}^{S, \numSpNeigh}_{#2#1}}}```
-	you'll need to add them again, otherwise the crossed out mentions of that from the old version cannot correctly be resolved
+1. Summaries of Reviewer Concerns and Our Revisions
+2. Summaries of Individual Reviews
+3. Full Reviews and Point-by-Point Responses
+4. Difference Version of Previous and Current Submisison
+5. (Optional) A differerence view between the previous and new paper created with [latexdiff](https://github.com/ftilmann/latexdiff/) ([ctan package](https://ctan.org/pkg/latexdiff), and more [info](https://www.overleaf.com/learn/latex/Articles/Using_Latexdiff_For_Marking_Changes_To_Tex_Documents))
