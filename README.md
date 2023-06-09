@@ -1,6 +1,6 @@
 # Revision and Rebuttal Letter Template
 
-The template is based on the ideas in the [Paper Submission Revision Template](https://docs.google.com/document/d/1Vef5VaW1j_vtg5z9lWJo4aKgzM0hUe3UnfBdY6-_1DM/edit) presented at the IEEE Vis 2020 [Fail Fest Workshop](https://virtual.ieeevis.org/year/2020/session_w-failfest.html) ([failfest.github.io](https://failfest.github.io/)) by Leilani Battle.
+This template is based on the ideas in the [Paper Submission Revision Template](https://docs.google.com/document/d/1Vef5VaW1j_vtg5z9lWJo4aKgzM0hUe3UnfBdY6-_1DM/edit) by Leilani Battle presented at the IEEE Vis 2020 [Fail Fest Workshop](https://virtual.ieeevis.org/year/2020/session_w-failfest.html) ([failfest.github.io](https://failfest.github.io/)).
 
 ## Usage recommendations
 Interleave reviewer comments with
@@ -13,7 +13,7 @@ that describe how you will tackle the raised concerns.
 Ideally, phrase your responses in a past tense.
 This way, you might be able to more easily re-use your responses when writing a final response letter.
 
-Additionally, it can also be helpful to first summarize each reviews in your own words and then outline the main and recurring reviewer's concerns.
+Additionally, it can be helpful to first summarize each review in your own words and then outline main and recurring concerns, critiques and suggestions.
 
 Have a look at the [example PDF](example/Revision_Rebuttal_Letter_Template.pdf).
 
