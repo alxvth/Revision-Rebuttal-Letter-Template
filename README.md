@@ -1,6 +1,6 @@
-# Revision and Rebuttal letter template
+# Revision and Rebuttal Letter Template
 
-Roughly based on this [Paper Submission Revision Template](https://docs.google.com/document/d/1Vef5VaW1j_vtg5z9lWJo4aKgzM0hUe3UnfBdY6-_1DM/edit) presented at the IEEE Vis 2020 [Fail Fest Workshop](https://virtual.ieeevis.org/year/2020/session_w-failfest.html) ([failfest.github.io](https://failfest.github.io/)) by Leilani Battle.
+The template is based on the ideas in the [Paper Submission Revision Template](https://docs.google.com/document/d/1Vef5VaW1j_vtg5z9lWJo4aKgzM0hUe3UnfBdY6-_1DM/edit) presented at the IEEE Vis 2020 [Fail Fest Workshop](https://virtual.ieeevis.org/year/2020/session_w-failfest.html) ([failfest.github.io](https://failfest.github.io/)) by Leilani Battle.
 
 ## Usage recommendations
 Interleave reviewer comments with
@@ -19,7 +19,7 @@ Have a look at the [example PDF](example/Revision_Rebuttal_Letter_Template.pdf).
 
 ## Sections
 
-Use sections you need or see fit.
+Use the sections you need or as you see fit.
 
 1. Summaries of Reviewer Concerns and Our Revisions
 2. Summaries of Individual Reviews
