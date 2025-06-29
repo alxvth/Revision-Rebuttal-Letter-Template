@@ -1,7 +1,11 @@
 # Revision and Rebuttal Letter Template
 
-This template is based on the ideas in the [Paper Submission Revision Template](https://docs.google.com/document/d/1Vef5VaW1j_vtg5z9lWJo4aKgzM0hUe3UnfBdY6-_1DM/edit) by Leilani Battle presented at the IEEE Vis 2020 [Fail Fest Workshop](https://virtual.ieeevis.org/year/2020/session_w-failfest.html) ([failfest.github.io](https://failfest.github.io/)).
-<!-- Archive link for the Paper Submission Revision Template: https://web.archive.org/web/20210216160619/https://docs.google.com/document/d/1Vef5VaW1j_vtg5z9lWJo4aKgzM0hUe3UnfBdY6-_1DM/edit -->
+This [Latex](https://www.latex-project.org/) template for paper revisions provides a clean structure for responding to reviewer comments. 
+It is based on the ideas presented by Leilani Battle at the IEEE Vis 2020 [Fail Fest Workshop](https://virtual.ieeevis.org/year/2020/session_w-failfest.html) ([failfest.github.io](https://failfest.github.io/)).
+<!-- 
+Original link to the Paper Submission Revision Template (access is not possible): https://docs.google.com/document/d/1Vef5VaW1j_vtg5z9lWJo4aKgzM0hUe3UnfBdY6-_1DM/edit
+Archive link for the Paper Submission Revision Template: https://web.archive.org/web/20210216160619/https://docs.google.com/document/d/1Vef5VaW1j_vtg5z9lWJo4aKgzM0hUe3UnfBdY6-_1DM/edit 
+-->
 
 ## Usage
 Interleave reviewer comments with
